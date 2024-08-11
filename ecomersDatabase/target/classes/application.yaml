@@ -1,0 +1,16 @@
+spring:
+   datasource:
+      username: fornowusername  
+      password: fornowpassword
+      url: jdbc:mysql://localhost:3306/ecomerproject
+      
+      
+   jpa:
+      hibernate:
+         ddl-auto: update
+      show-sql: true
+      defer-datasource-initialization: true
+      
+   sql:
+      init:
+         mode: always
